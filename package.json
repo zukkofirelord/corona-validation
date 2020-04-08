@@ -1,11 +1,37 @@
 {
-  "name": "webpack",
+  "name": "corona",
   "version": "1.0.0",
   "description": "webpack for corona",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "arsyadthareeq",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zukkofirelord/corona-validation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zukkofirelord/corona-validation/issues"
+  },
+  "homepage": "https://github.com/zukkofirelord/corona-validation#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "chart.js": "^2.9.3",
+    "css-loader": "^3.5.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
 }
